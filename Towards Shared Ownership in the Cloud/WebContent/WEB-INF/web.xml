@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>com.controller.RegistrationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewUserRequestServlet</servlet-name>
+    <servlet-class>com.controller.NewUserRequestServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>com.controller.ChangePasswordServlet</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <servlet-class>com.controller.FileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileDownloadServlet</servlet-name>
+    <servlet-class>com.controller.FileDownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewFileRequestServlet</servlet-name>
+    <servlet-class>com.controller.NewFileRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelegateRevokeServlet</servlet-name>
+    <servlet-class>com.controller.DelegateRevokeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewFileDRRequestServlet</servlet-name>
+    <servlet-class>com.controller.NewFileDRRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UsersFileDownloadServlet</servlet-name>
+    <servlet-class>com.controller.UsersFileDownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FileOwnerShipServlet</servlet-name>
+    <servlet-class>com.controller.FileOwnerShipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewFileOwnerShipRequestServlet</servlet-name>
+    <servlet-class>com.controller.NewFileOwnerShipRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserFileDownloadServlet</servlet-name>
+    <servlet-class>com.controller.UserFileDownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneLoginServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneRegistrationServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneChangePassword</servlet-name>
+    <servlet-class>com.commune.controller.CommuneChangePassword</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneNewUserRequestServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneNewUserRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneFileUploadServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneFileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneNewFileRequestServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneNewFileRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneFileOwnerShipServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneFileOwnerShipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneNewFileOwnerShipReqServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneNewFileOwnerShipReqServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneDownloadFileServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneDownloadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommuneEnterKeyServlet</servlet-name>
+    <servlet-class>com.commune.controller.CommuneEnterKeyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadLinkServlet</servlet-name>
+    <servlet-class>com.controller.DownloadLinkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BlockChainLoginServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BlockChainLoginServlet</servlet-class>
+  </servlet>
+
+
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCRegistrationServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StorageOwnerServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.StorageOwnerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCChangePasswordServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCFileUploadServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCFileUploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCNewFileStorageRequestServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCNewFileStorageRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCFileOwnerShipServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCFileOwnerShipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCNewFileOwnerShipReqServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCNewFileOwnerShipReqServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCContractOwnerShipServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCContractOwnerShipServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCUserVoteServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCUserVoteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VoteOwnerRequestServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.VoteOwnerRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCDownloadFileServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCDownloadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BCEnterKeyServlet</servlet-name>
+    <servlet-class>com.blockchain.controller.BCEnterKeyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadFileLinkServlet</servlet-name>
+    <servlet-class>com.controller.DownloadFileLinkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadFileUserLinkServlet</servlet-name>
+    <servlet-class>com.controller.DownloadFileUserLinkServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>NewUserRequestServlet</servlet-name>
+    <url-pattern>/NewUserRequestServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/ChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>FileUploadServlet</servlet-name>
+    <url-pattern>/FileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileDownloadServlet</servlet-name>
+    <url-pattern>/FileDownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewFileRequestServlet</servlet-name>
+    <url-pattern>/NewFileRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelegateRevokeServlet</servlet-name>
+    <url-pattern>/DelegateRevokeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewFileDRRequestServlet</servlet-name>
+    <url-pattern>/NewFileDRRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UsersFileDownloadServlet</servlet-name>
+    <url-pattern>/UsersFileDownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FileOwnerShipServlet</servlet-name>
+    <url-pattern>/FileOwnerShipServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewFileOwnerShipRequestServlet</servlet-name>
+    <url-pattern>/NewFileOwnerShipRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserFileDownloadServlet</servlet-name>
+    <url-pattern>/UserFileDownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneLoginServlet</servlet-name>
+    <url-pattern>/CommuneLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneRegistrationServlet</servlet-name>
+    <url-pattern>/CommuneRegistrationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneChangePassword</servlet-name>
+    <url-pattern>/CommuneChangePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneNewUserRequestServlet</servlet-name>
+    <url-pattern>/CommuneNewUserRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneFileUploadServlet</servlet-name>
+    <url-pattern>/CommuneFileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneNewFileRequestServlet</servlet-name>
+    <url-pattern>/CommuneNewFileRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneFileOwnerShipServlet</servlet-name>
+    <url-pattern>/CommuneFileOwnerShipServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneNewFileOwnerShipReqServlet</servlet-name>
+    <url-pattern>/CommuneNewFileOwnerShipReqServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneDownloadFileServlet</servlet-name>
+    <url-pattern>/CommuneDownloadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommuneEnterKeyServlet</servlet-name>
+    <url-pattern>/CommuneEnterKeyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadLinkServlet</servlet-name>
+    <url-pattern>/DownloadLinkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BlockChainLoginServlet</servlet-name>
+    <url-pattern>/BlockChainLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCRegistrationServlet</servlet-name>
+    <url-pattern>/BCRegistrationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StorageOwnerServlet</servlet-name>
+    <url-pattern>/StorageOwnerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCChangePasswordServlet</servlet-name>
+    <url-pattern>/BCChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCFileUploadServlet</servlet-name>
+    <url-pattern>/BCFileUploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCNewFileStorageRequestServlet</servlet-name>
+    <url-pattern>/BCNewFileStorageRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCFileOwnerShipServlet</servlet-name>
+    <url-pattern>/BCFileOwnerShipServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCNewFileOwnerShipReqServlet</servlet-name>
+    <url-pattern>/BCNewFileOwnerShipReqServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCContractOwnerShipServlet</servlet-name>
+    <url-pattern>/BCContractOwnerShipServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCUserVoteServlet</servlet-name>
+    <url-pattern>/BCUserVoteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VoteOwnerRequestServlet</servlet-name>
+    <url-pattern>/VoteOwnerRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCDownloadFileServlet</servlet-name>
+    <url-pattern>/BCDownloadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BCEnterKeyServlet</servlet-name>
+    <url-pattern>/BCEnterKeyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadFileLinkServlet</servlet-name>
+    <url-pattern>/DownloadFileLinkServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadFileUserLinkServlet</servlet-name>
+    <url-pattern>/DownloadFileUserLinkServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>Home.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
